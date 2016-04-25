@@ -9,8 +9,6 @@ The Problem: The DJM itself has a MIDI-Out function and sends MIDI beat clock si
 
 The Solution: Using CDJ Clock will recalculate the bpm based on the traffic information of the Pro DJ Link Ethernet connection between the CDJs and the DJM and continuously sends out a stable MIDI beat clock. This works between 60-180bpm. CDJ Clock will listen to MIDI commands. If a MIDI Start or MIDI Continue is received CDJ Clock waits for the next beat of Pro DJ Link and sends out the last MIDI Song Pointer and MIDI Continue. The MIDI Song Pointer can be moved in 4 or 32 beat steps.
 
-Plese see videos: 
-
+Plese see videos:
 https://www.youtube.com/watch?v=jXTiNU6RqOo
-
 https://www.youtube.com/watch?v=iFwF3T2wz9I
